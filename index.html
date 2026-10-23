@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grigorenko — Frontend & Rock</title>
+  <meta name="description" content="Личный сайт Grigorenko — фронтенд, иностранные языки и рок.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="header">
+    <a class="logo" href="#home">&lt;grigorenko<span>/&gt;</span></a>
+    <nav>
+      <a href="#about">Обо мне</a>
+      <a href="#skills">Навыки</a>
+      <a href="#interests">Интересы</a>
+      <a href="#socials">Соцсети</a>
+    </nav>
+    <button class="menu" aria-label="Меню">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <p class="eyebrow"><span></span> personal website</p>
+        <h1>Привет, я<br><strong>Григорий.</strong></h1>
+        <p class="subtitle">Фронтенд • иностранные языки • рок</p>
+        <p class="intro">
+          Учусь создавать сайты, разбираюсь в JavaScript и просто люблю
+          узнавать что-то новое.
+        </p>
+        <div class="buttons">
+          <a class="btn primary" href="#about">Узнать больше ↓</a>
+          <a class="btn secondary" href="#socials">Мои соцсети</a>
+        </div>
+      </div>
+
+      <div class="avatar-wrap">
+        <div class="glow"></div>
+        <div class="avatar-card">
+          <img src="assets/avatar.jpg" alt="Фото Григория">
+          <div class="card-tag">&lt;developer /&gt;</div>
+        </div>
+        <div class="floating-code">&lt;/&gt;</div>
+        <div class="floating-note">♫</div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <p class="section-label">01 / about</p>
+      <h2>Немного <span>обо мне</span></h2>
+      <div class="about-grid">
+        <div>
+          <p class="big-text">
+            Мне нравится <b>фронтенд</b> — превращать идеи в то, что можно
+            увидеть и потрогать прямо в браузере.
+          </p>
+        </div>
+        <div class="text-muted">
+          <p>Сейчас мой основной интерес — HTML, CSS и JavaScript.</p>
+          <p>Параллельно мне интересны иностранные языки и музыка, особенно рок.</p>
+          <p>Этот сайт — небольшое место, где всё это можно собрать вместе.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <p class="section-label">02 / skills</p>
+      <h2>Что я <span>изучаю</span></h2>
+      <div class="cards">
+        <article class="skill-card">
+          <div class="icon">&lt;/&gt;</div>
+          <h3>Frontend</h3>
+          <p>HTML · CSS · JavaScript</p>
+          <div class="bar"><i style="width: 82%"></i></div>
+        </article>
+        <article class="skill-card">
+          <div class="icon">Aa</div>
+          <h3>Языки</h3>
+          <p>Иностранные языки и практика</p>
+          <div class="bar"><i style="width: 65%"></i></div>
+        </article>
+        <article class="skill-card">
+          <div class="icon">♫</div>
+          <h3>Музыка</h3>
+          <p>Рок, альбомы и физические носители</p>
+          <div class="bar"><i style="width: 90%"></i></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section interests" id="interests">
+      <p class="section-label">03 / interests</p>
+      <h2>Что мне <span>нравится</span></h2>
+      <div class="interest-list">
+        <div class="interest">
+          <span class="number">01</span>
+          <div><h3>Код</h3><p>Писать JavaScript, экспериментировать и делать свои проекты.</p></div>
+          <span class="arrow">↗</span>
+        </div>
+        <div class="interest">
+          <span class="number">02</span>
+          <div><h3>Рок</h3><p>Слушать музыку, открывать новые группы и собирать любимые релизы.</p></div>
+          <span class="arrow">↗</span>
+        </div>
+        <div class="interest">
+          <span class="number">03</span>
+          <div><h3>Языки</h3><p>Изучать иностранные языки и расширять кругозор.</p></div>
+          <span class="arrow">↗</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section socials" id="socials">
+      <p class="section-label">04 / socials</p>
+      <h2>Я в <span>интернете</span></h2>
+      <div class="social-grid">
+        <a href="https://t.me/grigorenkood" target="_blank" rel="noopener" class="social">
+          <span class="social-icon">TG</span>
+          <div><b>Telegram</b><small>@grigorenkood</small></div>
+          <span>↗</span>
+        </a>
+        <a href="https://instagram.com/gregorenkodmr" target="_blank" rel="noopener" class="social">
+          <span class="social-icon">IG</span>
+          <div><b>Instagram</b><small>@gregorenkodmr</small></div>
+          <span>↗</span>
+        </a>
+        <a href="https://www.threads.net/@gregorenkodmr" target="_blank" rel="noopener" class="social">
+          <span class="social-icon">Th</span>
+          <div><b>Threads</b><small>@gregorenkodmr</small></div>
+          <span>↗</span>
+        </a>
+        <a href="https://vk.ru/grigorenkodmr" target="_blank" rel="noopener" class="social">
+          <span class="social-icon">VK</span>
+          <div><b>VK</b><small>grigorenkodmr</small></div>
+          <span>↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="logo">&lt;grigorenko<span>/&gt;</span></div>
+    <p>Built with HTML, CSS & JavaScript · 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
